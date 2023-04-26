@@ -1,0 +1,41 @@
+{
+	"years":[
+		{
+			"year": 2023,
+			"members":{
+				"members-on":[
+					{
+						"name": "x",
+						"nick": "xx",
+						"photo": "FOTO DO X",
+						"data entrada": 2016,
+						"data saída": 2020
+					},
+					{
+						"name": "y",
+						"nick": "xx",
+						"photo": "FOTO DO y",
+						"data entrada": 2016,
+						"data saída": 2021
+					}
+				],
+				"members-in":["apelido quem entrou"],
+				"members-out":["apelido quem saiu"]
+			},
+			"parties":[
+				{
+					"name": "festa x",
+					"photo": "banner da festa x"
+				},
+				{
+					"name": "festa y",
+					"photo": "banner da festa y"
+				},
+				{
+					"name": "festa z",
+					"photo": "banner da festa z"
+				}
+			]
+		}
+	]
+}

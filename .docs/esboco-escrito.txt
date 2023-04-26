@@ -1,0 +1,23 @@
+componentes:
+	menu-bar
+	card-ano
+	card-membros
+	membro-card
+	
+	-----
+	menu-shop-lat
+	menu-shop-bar
+	card-item-shop
+	
+pages:
+	home,
+	membros,
+	festas,
+	login,
+	cadastro,
+	shop,
+		item-shop,
+shared:
+	header
+	footer
+	

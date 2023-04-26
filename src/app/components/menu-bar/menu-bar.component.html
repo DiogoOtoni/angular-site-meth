@@ -1,0 +1,27 @@
+<div class="container__menu_bar">
+
+	<div class="menu__principal">
+		<span class="menu-bar__itens">
+			<a [routerLink]="['']"><button class="btn-menu">INÍCIO</button></a>
+		</span>
+		<span class="menu-bar__itens">
+			<a [routerLink]="['/membros']"><button class="btn-menu">MEMBROS</button></a>
+		</span>
+		<span class="menu-bar__itens">
+			<a [routerLink]="['/festas']"><button class="btn-menu">FESTAS</button></a>
+		</span>
+		<span class="menu-bar__itens">
+			<a><button class="btn-menu">LOJA</button></a><!-- falta a URL SHOP quando criado o componente pagina shop -->
+		</span>
+	</div>
+
+	<div class="menu__sign">
+		<div class="menu-bar__itens">
+			<a [routerLink]="['/login']"><button class="btn-menu">ENTRAR</button></a>
+		</div>
+		<div class="menu-bar__itens">
+			<a [routerLink]="['/register']"><button class="btn-menu">CADASTRE-SE</button></a>
+		</div>
+	</div>
+
+</div>
