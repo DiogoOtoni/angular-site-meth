@@ -14,6 +14,7 @@ import { CardMembersComponent } from './components/card-members/card-members.com
 import { MemberCardComponent } from './components/member-card/member-card.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { CardPartiesComponent } from './components/card-parties/card-parties.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { RegisterComponent } from './pages/register/register.component';
     CardMembersComponent,
     MemberCardComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    CardPartiesComponent
   ],
   imports: [
     BrowserModule,
