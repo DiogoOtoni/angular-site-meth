@@ -20,4 +20,9 @@ export class DataJsonServiceService {
 		return
 	}
 
+	getParties(index:number){
+		//dataYearsJson[index].members['members-on'][outroIndex].name
+		return dataYearsJson[index].parties;
+	}
+
 }
