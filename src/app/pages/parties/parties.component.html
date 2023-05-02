@@ -2,12 +2,12 @@
 	<div class="title__parties-container">
 		<h2>FESTAS:</h2>
 	</div>
-	<app-card-year
-		*ngFor="let y of yearsJsonAll"
-		[yearTitle]="y.year"
-		[descriptionYear]="y.description"
-	></app-card-year>
-
-
+	<hr>
+	<app-page-wrapper
+	*ngFor="let y of yearsJsonAll"
+	[itemsPW]="y.parties"
+	[descriptionPW]="y.description"
+	[titlePW]="y.year"
+	></app-page-wrapper>
 
 </div>

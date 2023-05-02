@@ -3,9 +3,14 @@
 		<h2>INTEGRANTES:</h2>
 	</div>
 	<hr>
-	<app-card-year></app-card-year>
-	<app-card-year></app-card-year>
-	<app-card-year></app-card-year>
+
+	<app-page-wrapper
+	*ngFor="let y of yearsJsonAll"
+	[itemsPW]="y.membersOn"
+	[descriptionPW]="y.description"
+	[titlePW]="y.year"
+	[cardTypePW]="'members'"
+	> </app-page-wrapper>
 
 
 </div>

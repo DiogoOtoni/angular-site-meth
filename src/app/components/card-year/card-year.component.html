@@ -5,7 +5,22 @@
 		<p>{{descriptionYear}}</p>
 	</div>
 	<div class="content__year-card">
+		<!-- AQUI É ONDE FICA O CARD DE MEMBROS OU FESTAS, COMO SABER QUAL ?
+		Tenho itemsCY como variavel desse componente ... -->
+		<ng-container *ngIf="cardTypeCY === 'parties'; else members">
 
+			<app-card-parties *ngFor="let item of itemsCY"
+			[partyName]="item['name']"
+			[partyPhoto]="item['photo']"
+			></app-card-parties>
+
+		</ng-container>
+
+		<ng-template #members>
+			<app-card-members *ngFor="let item of itemsCY"
+			[memberName]="item['name']"
+			/>
+		</ng-template>
 
 	</div>
 </div>

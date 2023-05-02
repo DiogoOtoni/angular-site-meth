@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { DataJsonServiceService } from 'src/app/services/data-json-service.service';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-members',
@@ -7,9 +6,9 @@ import { DataJsonServiceService } from 'src/app/services/data-json-service.servi
   styleUrls: ['./card-members.component.css']
 })
 export class CardMembersComponent implements OnInit {
-	memberName:string = '';
+	@Input() memberName:string = '';
 
-	constructor(private dataService:DataJsonServiceService){
+	constructor(){
 
 	}
 

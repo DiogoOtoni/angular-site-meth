@@ -2,46 +2,46 @@ export const dataYearsJson = [
 	{
 		"year": 2023,
 		"description": "Atual formação",
+		"membersOn": [
+			{
+				"name": "Gabriel Linhares",
+				"nick": "BH",
+				"photo": "FOTO DO X",
+				"dataEntrada": 2020,
+				"dataSaida": null
+			},
+			{
+				"name": "Camile",
+				"nick": "SININHO",
+				"photo": "FOTO DO X",
+				"dataEntrada": 2022,
+				"dataSaida": null
+			},
+			{
+				"name": "Jéssica Nayara",
+				"nick": "JEJE",
+				"photo": "FOTO DO X",
+				"dataEntrada": 2021,
+				"dataSaida": null
+			},
+			{
+				"name": "Pedro",
+				"nick": "CHOCO",
+				"photo": "FOTO DO X",
+				"dataEntrada": 2022,
+				"dataSaida": null
+			},
+			{
+				"name": "Pedro Antonio",
+				"nick": "VÔ",
+				"photo": "FOTO DO y",
+				"dataEntrada": 2022,
+				"dataSaida": null
+			}
+		],
 		"members": {
-			"members-on": [
-				{
-					"name": "Gabriel Linhares",
-					"nick": "BH",
-					"photo": "FOTO DO X",
-					"data-entrada": 2020,
-					"data-saida": null
-				},
-				{
-					"name": "Camile",
-					"nick": "SININHO",
-					"photo": "FOTO DO X",
-					"data-entrada": 2022,
-					"data-saida": null
-				},
-				{
-					"name": "Jéssica Nayara",
-					"nick": "JEJE",
-					"photo": "FOTO DO X",
-					"data-entrada": 2021,
-					"data-saida": null
-				},
-				{
-					"name": "Pedro",
-					"nick": "CHOCO",
-					"photo": "FOTO DO X",
-					"data-entrada": 2022,
-					"data-saida": null
-				},
-				{
-					"name": "Pedro Antonio",
-					"nick": "VÔ",
-					"photo": "FOTO DO y",
-					"data-entrada": 2022,
-					"data-saida": null
-				}
-			],
-			"members-in": ["BIANCA", "NETO"],
-			"members-out": ["BIA", "PALETÓ"]
+			"membersIn": ["BIANCA", "NETO"],
+			"membersOut": ["BIA", "PALETÓ"]
 		},
 		"parties": [
 			{
@@ -61,25 +61,25 @@ export const dataYearsJson = [
 	{
 		"year": 2022,
 		"description": "breve descrição do ano 2022",
+		"membersOn": [
+			{
+				"name": "x",
+				"nick": "xx",
+				"photo": "FOTO DO X",
+				"dataEntrada": 2016,
+				"dataSaida": 2020
+			},
+			{
+				"name": "y",
+				"nick": "xx",
+				"photo": "FOTO DO y",
+				"dataEntrada": 2016,
+				"dataSaida": 2021
+			}
+		],
 		"members": {
-			"members-on": [
-				{
-					"name": "x",
-					"nick": "xx",
-					"photo": "FOTO DO X",
-					"data-entrada": 2016,
-					"data-saida": 2020
-				},
-				{
-					"name": "y",
-					"nick": "xx",
-					"photo": "FOTO DO y",
-					"data-entrada": 2016,
-					"data-saida": 2021
-				}
-			],
-			"members-in": ["apelido quem entrou"],
-			"members-out": ["apelido quem saiu"]
+			"membersIn": ["apelido quem entrou"],
+			"membersOut": ["apelido quem saiu"]
 		},
 		"parties": [
 			{
@@ -90,86 +90,66 @@ export const dataYearsJson = [
 				"name": "festa y",
 				"photo": "banner da festa y"
 			},
-			{
-				"name": "festa z",
-				"photo": "banner da festa z"
-			}
+
 		]
 	},
 	{
 		"year": 2021,
 		"description": "Mais um ano de Covid. Aulas voltarão ?",
+		"membersOn": [
+			{
+				"name": "",
+				"nick": "",
+				"photo": "",
+				"dataEntrada": null,
+				"dataSaida": null
+			},
+			{
+				"name": "",
+				"nick": "",
+				"photo": "",
+				"dataEntrada": null,
+				"dataSaida": null
+			}
+		],
 		"members": {
-			"members-on": [
-				{
-					"name": "",
-					"nick": "",
-					"photo": "",
-					"data-entrada": null,
-					"data-saida": null
-				},
-				{
-					"name": "",
-					"nick": "",
-					"photo": "",
-					"data-entrada": null,
-					"data-saida": null
-				}
-			],
-			"members-in": [""],
-			"members-out": [""]
+			"membersIn": [""],
+			"membersOut": [""]
 		},
 		"parties": [
 			{
 				"name": "",
 				"photo": ""
 			},
-			{
-				"name": "",
-				"photo": ""
-			},
-			{
-				"name": "",
-				"photo": ""
-			}
+
 		]
 	},
 	{
 		"year": 2020,
 		"description": "Covid chegou, o mundo parou !",
+
+		"membersOn": [
+			{
+				"name": "",
+				"nick": "",
+				"photo": "",
+				"dataEntrada": null,
+				"dataSaida": null
+			},
+			{
+				"name": "",
+				"nick": "",
+				"photo": "",
+				"dataEntrada": null,
+				"dataSaida": null
+			}
+		],
 		"members": {
-			"members-on": [
-				{
-					"name": "",
-					"nick": "",
-					"photo": "",
-					"data-entrada": null,
-					"data-saida": null
-				},
-				{
-					"name": "",
-					"nick": "",
-					"photo": "",
-					"data-entrada": null,
-					"data-saida": null
-				}
-			],
-			"members-in": [""],
-			"members-out": [""]
+			"membersIn": [""],
+			"membersOut": [""]
 		},
 		"parties": [
-			{
-				"name": "",
-				"photo": ""
-			},
-			{
-				"name": "",
-				"photo": ""
-			},
-			{
-				"name": "",
-				"photo": ""
-			}
+
 		]
 	},
 ]

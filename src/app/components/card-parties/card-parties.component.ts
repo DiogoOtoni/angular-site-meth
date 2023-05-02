@@ -8,6 +8,8 @@ import { Component, Input } from '@angular/core';
 })
 export class CardPartiesComponent {
 
-	@Input() partyName:string = '';
+	@Input() partyName: string = '';
 	@Input() partyPhoto: string= '';
+
+
 }

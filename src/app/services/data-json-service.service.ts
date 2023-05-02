@@ -6,6 +6,7 @@ import { dataYearsJson } from 'src/assets/data/dataYearsJson';
 })
 
 export class DataJsonServiceService {
+	members:[] = [];
 	constructor() {	}
 
 	getDataYears(){
@@ -17,7 +18,8 @@ export class DataJsonServiceService {
 	}
 
 	getMembers(){
-		return
+		return this.getDataYears().map(obj => obj.membersOn)
+
 	}
 
 	getParties(index:number){

@@ -1,50 +1,56 @@
 {
-	"years":[
+	"documentYears": [
 		{
 			"year": 2023,
 			"description": "Atual formação",
-			"members":{
-				"members-on":[
-					{
-						"name": "Gabriel Linhares",
-						"nick": "BH",
-						"photo": "FOTO DO X",
-						"data entrada": 2020,
-						"data saída": null
-					},
-					{
-						"name": "Camile",
-						"nick": "SININHO",
-						"photo": "FOTO DO X",
-						"data entrada": 2022,
-						"data saída": null
-					},
-					{
-						"name": "Jéssica Nayara",
-						"nick": "JEJE",
-						"photo": "FOTO DO X",
-						"data entrada": 2021,
-						"data saída": null
-					},
-					{
-						"name": "Pedro",
-						"nick": "CHOCO",
-						"photo": "FOTO DO X",
-						"data entrada": 2022,
-						"data saída": null
-					},
-					{
-						"name": "Pedro Antonio",
-						"nick": "VÔ",
-						"photo": "FOTO DO y",
-						"data entrada": 2022,
-						"data saída": null
-					}
+			"membersOn": [
+				{
+					"name": "Gabriel Linhares",
+					"nick": "BH",
+					"photo": "FOTO DO X",
+					"dataEntrada": 2020,
+					"dataSaida": null
+				},
+				{
+					"name": "Camile",
+					"nick": "SININHO",
+					"photo": "FOTO DO X",
+					"dataEntrada": 2022,
+					"dataSaida": null
+				},
+				{
+					"name": "Jéssica Nayara",
+					"nick": "JEJE",
+					"photo": "FOTO DO X",
+					"dataEntrada": 2021,
+					"dataSaida": null
+				},
+				{
+					"name": "Pedro",
+					"nick": "CHOCO",
+					"photo": "FOTO DO X",
+					"dataEntrada": 2022,
+					"dataSaida": null
+				},
+				{
+					"name": "Pedro Antonio",
+					"nick": "VÔ",
+					"photo": "FOTO DO y",
+					"dataEntrada": 2022,
+					"dataSaida": null
+				}
+			],
+			"members": {
+				"membersIn": [
+					"BIANCA",
+					"NETO"
 				],
-				"members-in":["BIANCA", "NETO"],
-				"members-out":["BIA", "PALETÓ"]
+				"membersOut": [
+					"BIA",
+					"PALETÓ"
+				]
 			},
-			"parties":[
+			"parties": [
 				{
 					"name": "Contacopos 2023",
 					"photo": "banner da festa Contacopos 2023"
@@ -62,27 +68,31 @@
 		{
 			"year": 2022,
 			"description": "breve descrição do ano 2022",
-			"members":{
-				"members-on":[
-					{
-						"name": "x",
-						"nick": "xx",
-						"photo": "FOTO DO X",
-						"data entrada": 2016,
-						"data saída": 2020
-					},
-					{
-						"name": "y",
-						"nick": "xx",
-						"photo": "FOTO DO y",
-						"data entrada": 2016,
-						"data saída": 2021
-					}
+			"membersOn": [
+				{
+					"name": "x",
+					"nick": "xx",
+					"photo": "FOTO DO X",
+					"dataEntrada": 2016,
+					"dataSaida": 2020
+				},
+				{
+					"name": "y",
+					"nick": "xx",
+					"photo": "FOTO DO y",
+					"dataEntrada": 2016,
+					"dataSaida": 2021
+				}
+			],
+			"members": {
+				"membersIn": [
+					"apelido quem entrou"
 				],
-				"members-in":["apelido quem entrou"],
-				"members-out":["apelido quem saiu"]
+				"membersOut": [
+					"apelido quem saiu"
+				]
 			},
-			"parties":[
+			"parties": [
 				{
 					"name": "festa x",
 					"photo": "banner da festa x"
@@ -90,18 +100,71 @@
 				{
 					"name": "festa y",
 					"photo": "banner da festa y"
-				},
-				{
-					"name": "festa z",
-					"photo": "banner da festa z"
 				}
 			]
 		},
 		{
-
+			"year": 2021,
+			"description": "Mais um ano de Covid. Aulas voltarão ?",
+			"membersOn": [
+				{
+					"name": "",
+					"nick": "",
+					"photo": "",
+					"dataEntrada": null,
+					"dataSaida": null
+				},
+				{
+					"name": "",
+					"nick": "",
+					"photo": "",
+					"dataEntrada": null,
+					"dataSaida": null
+				}
+			],
+			"members": {
+				"membersIn": [
+					""
+				],
+				"membersOut": [
+					""
+				]
+			},
+			"parties": [
+				{
+					"name": "",
+					"photo": ""
+				}
+			]
+		},
+		{
+			"year": 2020,
+			"description": "Covid chegou, o mundo parou !",
+			"membersOn": [
+				{
+					"name": "",
+					"nick": "",
+					"photo": "",
+					"dataEntrada": null,
+					"dataSaida": null
+				},
+				{
+					"name": "",
+					"nick": "",
+					"photo": "",
+					"dataEntrada": null,
+					"dataSaida": null
+				}
+			],
+			"members": {
+				"membersIn": [
+					""
+				],
+				"membersOut": [
+					""
+				]
+			},
+			"parties": []
 		}
-	],
-	"2023": {
-
-	}
+	]
 }
