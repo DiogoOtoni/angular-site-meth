@@ -1,6 +1,10 @@
 <div class="parties__container">
-	<app-card-year></app-card-year>
-	<app-card-year></app-card-year>
+	<app-card-year
+		*ngFor="let y of yearsJsonAll"
+		[yearTitle]="y.year"
+		[descriptionYear]="y.description"
+	></app-card-year>
+
 
 
 </div>

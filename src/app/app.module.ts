@@ -15,6 +15,7 @@ import { MemberCardComponent } from './components/member-card/member-card.compon
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { CardPartiesComponent } from './components/card-parties/card-parties.component';
+import { DataJsonServiceService } from './services/data-json-service.service';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { CardPartiesComponent } from './components/card-parties/card-parties.com
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataJsonServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
