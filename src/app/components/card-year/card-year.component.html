@@ -8,17 +8,19 @@
 		<!-- AQUI É ONDE FICA O CARD DE MEMBROS OU FESTAS, COMO SABER QUAL ?
 		Tenho itemsCY como variavel desse componente ... -->
 		<ng-container *ngIf="cardTypeCY === 'parties'; else members">
+			<ng-template #parties>
 
-			<app-card-parties *ngFor="let item of itemsCY"
-			[partyName]="item['name']"
-			[partyPhoto]="item['photo']"
-			></app-card-parties>
+				<app-card-parties *ngFor="let item of itemsCY"
+				[partyName]="item['name']"
+				[partyPhoto]="item['photo']"
+				></app-card-parties>
+			</ng-template>
 
 		</ng-container>
 
 		<ng-template #members>
 			<app-card-members *ngFor="let item of itemsCY"
-			[memberName]="item['name']"
+			[memberNick]="item['nick']"
 			/>
 		</ng-template>
 
