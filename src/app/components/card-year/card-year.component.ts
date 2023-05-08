@@ -1,4 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { map } from 'rxjs';
+import { IYears } from 'src/app/interfaces/IYears';
+import { YearsServService } from 'src/app/services/years-serv.service';
 
 @Component({
   selector: 'app-card-year',
@@ -9,14 +12,18 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardYearComponent implements OnInit {
 	@Input() yearTitle:number = 0;
 	@Input() descriptionYear:string = '';
-	@Input() itemsCY:[] = [];
 
-	@Input() cardTypeCY:string = '';
+	@Input() yearsData: IYears[] | undefined;
 
-	constructor(){}
+	constructor(private dataService:YearsServService){}
 
 	ngOnInit(): void {
-		console.log(this.itemsCY)
-
+		this.dataService.getAllYears().subscribe(data => {
+			this.yearsData = data.years;
+			//console.log(data);
+			//console.log(this.yearsData);
+		})
 	}
+
+
 }

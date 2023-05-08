@@ -1,19 +1,24 @@
 <div class="card-year__container">
 	<div class="title__card-year">
-		<h3>{{yearTitle}}</h3>
+		<!-- <h3>{{yearTitle}}</h3> -->
 		<hr>
-		<p>{{descriptionYear}}</p>
+		<!-- <p>{{descriptionYear}}</p> -->
 	</div>
 	<div class="content__year-card">
 		<!-- AQUI É ONDE FICA O CARD DE MEMBROS OU FESTAS, COMO SABER QUAL ?
 		Tenho itemsCY como variavel desse componente ... -->
-		<ng-container *ngIf="cardTypeCY === 'parties'; else members">
+
+		<!-- <ng-container >
 			<ng-template #parties>
 
 				<app-card-parties *ngFor="let item of itemsCY"
 				[partyName]="item['name']"
 				[partyPhoto]="item['photo']"
 				></app-card-parties>
+
+			*ngIf="cardTypeCY === 'parties'; else members"
+
+
 			</ng-template>
 
 		</ng-container>
@@ -22,7 +27,10 @@
 			<app-card-members *ngFor="let item of itemsCY"
 			[memberNick]="item['nick']"
 			/>
-		</ng-template>
+		</ng-template> -->
 
+		<app-card-members *ngFor="let year of yearsData">
+
+		</app-card-members>
 	</div>
 </div>

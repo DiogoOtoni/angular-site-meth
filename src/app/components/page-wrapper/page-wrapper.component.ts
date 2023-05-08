@@ -9,6 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class PageWrapperComponent implements OnInit{
 	@Input() titlePW: number = 0;
 	@Input() descriptionPW: string = '';
+
   @Input() itemsPW: [] = [];
 
 	@Input() cardTypePW: string = '';

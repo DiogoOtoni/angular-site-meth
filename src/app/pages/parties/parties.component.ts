@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { DataJsonServiceService } from 'src/app/services/data-json-service.service';
+import { Component, Input } from '@angular/core';
+import { IParties } from 'src/app/interfaces/IParties';
+import { PartiesServService } from 'src/app/services/parties-serv.service';
 
 @Component({
   selector: 'app-parties',
@@ -7,11 +8,15 @@ import { DataJsonServiceService } from 'src/app/services/data-json-service.servi
   styleUrls: ['./parties.component.css']
 })
 export class PartiesComponent {
-	yearsJsonAll: any[] | undefined;
 
-	constructor(private dataService:DataJsonServiceService){}
+	@Input() partiesData: IParties[] | undefined;
+
+	constructor(private dataService:PartiesServService){}
 
 	ngOnInit(): void {
-		this.yearsJsonAll = this.dataService.getDataYears();
+		this.dataService.getParties().subscribe(data => {
+			this.partiesData = data.parties;
+			console.log(this.partiesData)
+		})
 	}
 }

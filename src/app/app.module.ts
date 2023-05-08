@@ -17,6 +17,10 @@ import { RegisterComponent } from './pages/register/register.component';
 import { CardPartiesComponent } from './components/card-parties/card-parties.component';
 import { DataJsonServiceService } from './services/data-json-service.service';
 import { PageWrapperComponent } from './components/page-wrapper/page-wrapper.component';
+import { MembersServService } from './services/members-serv.service';
+import { PartiesServService } from './services/parties-serv.service';
+import { YearsServService } from './services/years-serv.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,9 +41,10 @@ import { PageWrapperComponent } from './components/page-wrapper/page-wrapper.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+		HttpClientModule
   ],
-  providers: [DataJsonServiceService],
+  providers: [DataJsonServiceService, MembersServService, PartiesServService, YearsServService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
