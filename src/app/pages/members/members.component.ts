@@ -9,6 +9,7 @@ import { MembersServService } from 'src/app/services/members-serv.service';
 })
 export class MembersComponent {
 
+	@Input() forCardMembers: string = 'members';
 	@Input() membersData:IMembers[] | undefined;
 
 	constructor(private dataService:MembersServService){}

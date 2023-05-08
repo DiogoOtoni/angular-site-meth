@@ -12,4 +12,5 @@ export class PartiesServService {
 	getParties():Observable<any>{
 		return this.http.get<any>('assets/data/parties.json');
 	}
+
 }

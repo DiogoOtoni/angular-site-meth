@@ -1,6 +1,7 @@
-<div class="container__card-parties">
+<div class="container__card-parties" *ngFor="let pt of partiesByYear">
 	<div class="title__party">
-		<h4>{{partyName}}</h4>
+		<h4>{{pt.name}}</h4>
+		<p>{{pt.description}}</p>
 	</div>
 	<div class="folder__party">
 		<img src="" alt="{{partyPhoto}}">

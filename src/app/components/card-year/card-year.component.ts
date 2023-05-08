@@ -15,15 +15,14 @@ export class CardYearComponent implements OnInit {
 
 	@Input() yearsData: IYears[] | undefined;
 
+	@Input() cardTypeCY: string = '';
+
 	constructor(private dataService:YearsServService){}
 
 	ngOnInit(): void {
 		this.dataService.getAllYears().subscribe(data => {
 			this.yearsData = data.years;
-			//console.log(data);
-			//console.log(this.yearsData);
+			console.log(this.yearsData);
 		})
 	}
-
-
 }

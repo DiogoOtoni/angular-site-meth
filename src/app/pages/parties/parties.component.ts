@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IParties } from 'src/app/interfaces/IParties';
-import { PartiesServService } from 'src/app/services/parties-serv.service';
+
 
 @Component({
   selector: 'app-parties',
@@ -9,14 +8,10 @@ import { PartiesServService } from 'src/app/services/parties-serv.service';
 })
 export class PartiesComponent {
 
-	@Input() partiesData: IParties[] | undefined;
+	@Input() forCardParties:string = 'parties';
 
-	constructor(private dataService:PartiesServService){}
+	constructor(){}
 
-	ngOnInit(): void {
-		this.dataService.getParties().subscribe(data => {
-			this.partiesData = data.parties;
-			console.log(this.partiesData)
-		})
-	}
+	ngOnInit(): void {}
+
 }
