@@ -19,7 +19,6 @@ export class CardPartiesComponent implements OnInit{
 	@Input() anoCorrente!:number;
 
 	@Input() partiesData: IParties[] | undefined;
-
 	@Input() partiesByYear:IParties[] | undefined;
 
 	constructor(private dataService:PartiesServService){}

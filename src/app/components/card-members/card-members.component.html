@@ -1,7 +1,7 @@
-<div class="card-member__container">
+<div class="card-member__container" *ngFor="let mem of membersDataByYear">
 	<div class="member__iten">
 		<p class="name-member">
-			{{memberNick}}
+			{{mem.nick}}
 		</p>
 	</div>
 </div>

@@ -5,18 +5,16 @@
 		<p>{{yearContent.description}}</p>
 	</div>
 	<div class="content__year-card">
-		<!-- <ng-container *ngIf="cardTypeCY === 'parties'; else membersTemplate">
-			<ng-template #partiesTemplate>
 
+		<ng-container *ngIf="cardTypeCY == 'parties'; else membersTemplate">
 
-			</ng-template>
+				<app-card-parties [anoCorrente]="yearContent.year"></app-card-parties>
+
 		</ng-container>
-			<ng-template #membersTemplate>
-				<app-card-members>
 
-				</app-card-members>
-			</ng-template> -->
-			<app-card-parties [anoCorrente]="yearContent.year"></app-card-parties>
-
+		<ng-template #membersTemplate>
+			<app-card-members [anoCorrente]="yearContent.year"></app-card-members>
+		</ng-template>
+		<!-- <app-card-members [anoCorrente]="yearContent.year"></app-card-members> -->
 	</div>
 </div>

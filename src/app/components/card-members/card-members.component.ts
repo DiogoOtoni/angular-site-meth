@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { IMembers } from 'src/app/interfaces/IMembers';
+import { MembersServService } from 'src/app/services/members-serv.service';
 
 @Component({
   selector: 'app-card-members',
@@ -7,13 +9,33 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardMembersComponent implements OnInit {
 	@Input() memberNick:string = '';
+	@Input() anoCorrente!:number;
+	@Input() membersData:IMembers[] | undefined;
+	@Input() membersDataByYear:IMembers[] | undefined;
 
-	constructor(){
-
-	}
+	constructor(private dataService:MembersServService){}
 
 	ngOnInit(): void {
+		this.dataService.getMembers().subscribe(data => {
+			this.membersData = data.members;
+			this.getMembersByYear();
+		})
+	}
 
+	getMembersByYear(){
+		if(this.anoCorrente === 2023){
+			this.dataService.getMembers().subscribe(data => {
+				this.membersDataByYear = data.members.filter((member:any) =>
+					member.dataSaida === null
+				)
+			})
+		}else{
+			this.dataService.getMembers().subscribe(data => {
+				this.membersDataByYear = data.members.filter((member:any) =>
+					member.dataSaida >= this.anoCorrente && member.dataEntrada <= this.anoCorrente
+				)
+			})
+		}
 	}
 
 }
