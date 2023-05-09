@@ -7,14 +7,14 @@
 	<div class="content__year-card">
 
 		<ng-container *ngIf="cardTypeCY == 'parties'; else membersTemplate">
-
-				<app-card-parties [anoCorrente]="yearContent.year"></app-card-parties>
-
+			<app-card-parties class="content__flex-row"
+			[anoCorrente]="yearContent.year"></app-card-parties>
 		</ng-container>
 
 		<ng-template #membersTemplate>
-			<app-card-members [anoCorrente]="yearContent.year"></app-card-members>
+			<app-card-members class="content__flex-row"
+			[anoCorrente]="yearContent.year"></app-card-members>
 		</ng-template>
-		<!-- <app-card-members [anoCorrente]="yearContent.year"></app-card-members> -->
+
 	</div>
 </div>

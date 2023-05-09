@@ -32,7 +32,7 @@ export class CardMembersComponent implements OnInit {
 		}else{
 			this.dataService.getMembers().subscribe(data => {
 				this.membersDataByYear = data.members.filter((member:any) =>
-					member.dataSaida >= this.anoCorrente && member.dataEntrada <= this.anoCorrente
+					(member.dataSaida >= this.anoCorrente || member.dataSaida == null) && member.dataEntrada <= this.anoCorrente
 				)
 			})
 		}

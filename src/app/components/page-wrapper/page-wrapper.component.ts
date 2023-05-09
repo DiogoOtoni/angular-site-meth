@@ -7,18 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./page-wrapper.component.css']
 })
 export class PageWrapperComponent implements OnInit{
-	@Input() titlePW: number = 0;
-	@Input() descriptionPW: string = '';
-
-  @Input() itemsPW: [] = [];
-
-	@Input() cardTypePW: string = '';
-  @Input() cardTitlePW: string = '';
-
 	constructor(){}
 
-	ngOnInit(): void {
-
-	}
+	ngOnInit(): void {}
 
 }
