@@ -1,4 +1,29 @@
-# SiteMethAngular
+# Site República Methiolatte
+---
+Site desenvolvido para a aplicação e prática de conceitos de estudos do desenvolvimento Front-End com a utilização do framework ANGULAR 15.
+Até o momento foram praticados os conceitos de:
+	- Componentização
+	- Routing
+	- HTTPClient
+	- Services
+	- JSON
+	- Interface
+	- Observable (RxJS)
+	- Diretivas
+		-- ng-container
+		-- ng-template
+		-- ngFor
+		-- ngIfelse
+
+Esse é um projeto de desenvolvimento constante.
+Próximos passos:
+	- Form
+	- Autenticação de login
+	- Estilização com responsividade
+	- Angular Material
+	- Integração com banco de dados PostgreSQL
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
