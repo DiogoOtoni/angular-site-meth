@@ -13,9 +13,10 @@
 		<span class="menu-bar__itens">
 			<a><button class="btn-menu">LOJA</button></a><!-- falta a URL SHOP quando criado o componente pagina shop -->
 		</span>
+		<span *ngIf="false"> Olá XXXXX</span>
 	</div>
 
-	<div class="menu__sign">
+	<div class="menu__sign" *ngIf="true">
 		<div class="menu-bar__itens">
 			<a [routerLink]="['/login']"><button class="btn-menu">ENTRAR</button></a>
 		</div>

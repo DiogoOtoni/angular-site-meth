@@ -169,11 +169,25 @@
 			"dataSaida": 2017
 		},
 		{
-			"name": "VAZIO",
-			"nick": "VAZIO",
+			"name": "VAZIO 1",
+			"nick": "VAZIO 1",
 			"photo": "",
-			"dataEntrada": 2007,
-			"dataSaida": null
+			"dataEntrada": 2008,
+			"dataSaida": 2011
+		},
+		{
+			"name": "VAZIO 2",
+			"nick": "VAZIO 2",
+			"photo": "",
+			"dataEntrada": 2008,
+			"dataSaida": 2011
+		},
+		{
+			"name": "VAZIO 3",
+			"nick": "VAZIO 3",
+			"photo": "",
+			"dataEntrada": 2008,
+			"dataSaida": 2011
 		},
 		{
 			"name": "Eduardo",
@@ -186,7 +200,7 @@
 			"name": "Sávio Ladeira",
 			"nick": "SÁVIO",
 			"photo": "",
-			"dataEntrada": 2007,
+			"dataEntrada": 2008,
 			"dataSaida": 2011
 		},
 		{
@@ -200,7 +214,7 @@
 			"name": "Nestor",
 			"nick": "NESTOR",
 			"photo": "",
-			"dataEntrada": 2007,
+			"dataEntrada": 2008,
 			"dataSaida": 2013
 		}
 	]
