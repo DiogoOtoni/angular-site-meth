@@ -11,10 +11,10 @@ Até o momento foram praticados os conceitos de:
 - Interface
 - Observable (RxJS)
 - Diretivas
--- ng-container
--- ng-template
--- ngFor
--- ngIfelse
+	- ng-container
+	- ng-template
+	- ngFor
+	- ngIfelse
 
 Esse é um projeto de desenvolvimento constante.
 Próximos passos:
