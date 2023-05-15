@@ -116,7 +116,7 @@
 			"name": "Gabriel Linhares",
 			"nick": "BH",
 			"photo": "",
-			"dataEntrada": 2019,
+			"dataEntrada": 2020,
 			"dataSaida": null
 		},
 		{
@@ -164,27 +164,27 @@
 		{
 			"name": "Mateus",
 			"nick": "MARANHÃO",
-			"photo": "../images/profileMembers/maranhao",
+			"photo": "",
 			"dataEntrada": 2017,
 			"dataSaida": 2017
 		},
 		{
-			"name": "VAZIO 1",
-			"nick": "VAZIO 1",
+			"name": "Gabriella Paiva",
+			"nick": "GABI",
 			"photo": "",
-			"dataEntrada": 2008,
-			"dataSaida": 2011
+			"dataEntrada": 2019,
+			"dataSaida": 2021
 		},
 		{
-			"name": "VAZIO 2",
-			"nick": "VAZIO 2",
+			"name": "Vicente Júnior",
+			"nick": "VICENTE",
 			"photo": "",
 			"dataEntrada": 2008,
-			"dataSaida": 2011
+			"dataSaida": 2013
 		},
 		{
-			"name": "VAZIO 3",
-			"nick": "VAZIO 3",
+			"name": "Alfredo Teixeira",
+			"nick": "FREDIM",
 			"photo": "",
 			"dataEntrada": 2008,
 			"dataSaida": 2011

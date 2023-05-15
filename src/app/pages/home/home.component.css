@@ -1,8 +1,7 @@
 .container__home {
-	border: 1px solid red;
 	text-align: center;
+}
 
-	/* min-height: 80vh; */
-
-
+.img__home > img {
+	width: 100%;
 }

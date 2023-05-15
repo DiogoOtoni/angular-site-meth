@@ -1,17 +1,17 @@
 .container__footer {
-	border: 1px solid forestgreen;
 
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
+	flex-wrap: wrap;
 
 	background-color: #2b2b2b;
 	color: #FEFEFE;
 
 	width: 100%;
 
-	height: 6rem;
+	min-height: 200px;
 	position: absolute;
 	bottom: 0;
 }
@@ -23,7 +23,24 @@
 	align-items: center;
 }
 
-.footer__social-network p{
+.fa-brands{
 	margin: 1rem;
+	color: #FEFEFE;
+}
 
+.footer__social-network {
+	font-size: 4rem;
+}
+
+.form__contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+
+	margin: .5rem 0 .5rem 0;
+}
+
+.form__contact label {
+	margin-right: .225rem;
 }
