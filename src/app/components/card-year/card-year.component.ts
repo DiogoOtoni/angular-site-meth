@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { map } from 'rxjs';
 import { IYears } from 'src/app/interfaces/IYears';
 import { YearsServService } from 'src/app/services/years-serv.service';
@@ -10,9 +10,6 @@ import { YearsServService } from 'src/app/services/years-serv.service';
 })
 
 export class CardYearComponent implements OnInit {
-	@Input() yearTitle:number = 0;
-	@Input() descriptionYear:string = '';
-
 	@Input() yearsData: IYears[] | undefined;
 
 	@Input() cardTypeCY!: string;
@@ -23,5 +20,8 @@ export class CardYearComponent implements OnInit {
 		this.dataService.getAllYears().subscribe(data => {
 			this.yearsData = data.years;
 		})
+
 	}
+
+
 }

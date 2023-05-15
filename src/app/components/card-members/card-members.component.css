@@ -1,3 +1,16 @@
 .card-member__container{
-	margin: 1rem 2rem;
+	margin-top: 1rem;
+	padding: .5rem 1rem;
+	border-radius: 1rem;
+	background-color: #2b2b2b;
+	color: #FEFEFE;
+}
+
+.card-member__container:hover{
+	background-color: #FEFEFE;
+	color: #2b2b2b;
+}
+
+p {
+	font-weight: bold;
 }

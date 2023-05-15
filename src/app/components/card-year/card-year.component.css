@@ -1,11 +1,14 @@
 .card-year__container {
 	width: 80%;
 	margin: auto;
-	margin-bottom: 4rem;
+	margin-bottom: 1rem;
+	border-top: 2px dashed rgb(156, 46, 46);
+	min-height: 150px;
 }
 
 .title__card-year{
-	margin-bottom: 2rem;
+	margin-bottom: .75rem;
+	opacity: 1;
 }
 
 .content__year-card{
@@ -20,4 +23,19 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.card-year__background-new {
+	background-image: url("../../../assets/images/imgMeth/newlogoOpac.jpeg");
+	background-repeat: space round;
+}
+.card-year__background-first{
+	background-image: url("../../../assets/images/imgMeth/firstLogoOpac.jpg");
+	background-repeat: space round;
+}
+.card-year__background-old {
+	background-image: url("../../../assets/images/imgMeth/oldLogoOpac.png");
+	background-repeat: space round;
 }

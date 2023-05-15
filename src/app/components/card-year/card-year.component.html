@@ -1,20 +1,28 @@
-<div class="card-year__container" *ngFor="let yearContent of yearsData">
-	<div class="title__card-year">
-		<h3>{{yearContent.year}}</h3>
-		<hr>
-		<p>{{yearContent.description}}</p>
+<div *ngFor="let yearContent of yearsData">
+
+
+	<div class="card-year__container"
+	[ngClass]="yearContent.description"
+	>
+
+		<div class="title__card-year">
+			<h3>{{yearContent.year}}</h3>
+
+			<!-- <p>{{yearContent.description}}</p> -->
+		</div>
+		<div class="content__year-card ">
+
+			<ng-container *ngIf="cardTypeCY == 'parties'; else membersTemplate">
+				<app-card-parties class="content__flex-row"
+				[anoCorrente]="yearContent.year"></app-card-parties>
+			</ng-container>
+
+			<ng-template #membersTemplate>
+				<app-card-members class="content__flex-row"
+				[anoCorrente]="yearContent.year"></app-card-members>
+			</ng-template>
+
+		</div>
 	</div>
-	<div class="content__year-card">
 
-		<ng-container *ngIf="cardTypeCY == 'parties'; else membersTemplate">
-			<app-card-parties class="content__flex-row"
-			[anoCorrente]="yearContent.year"></app-card-parties>
-		</ng-container>
-
-		<ng-template #membersTemplate>
-			<app-card-members class="content__flex-row"
-			[anoCorrente]="yearContent.year"></app-card-members>
-		</ng-template>
-
-	</div>
 </div>

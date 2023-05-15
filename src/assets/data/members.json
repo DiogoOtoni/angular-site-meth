@@ -155,6 +155,20 @@
 			"dataSaida": 2022
 		},
 		{
+			"name": "Bianca Panacho",
+			"nick": "UVA",
+			"photo": "",
+			"dataEntrada": 2023,
+			"dataSaida": null
+		},
+		{
+			"name": "Guilherme",
+			"nick": "NETO",
+			"photo": "",
+			"dataEntrada": 2023,
+			"dataSaida": null
+		},
+		{
 			"name": "Cleyton",
 			"nick": "CLEYTIM",
 			"photo": "",
