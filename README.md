@@ -25,6 +25,8 @@ Próximos passos:
 - Integração com banco de dados PostgreSQL
 
 ---
+Site de deploy:  [República METHIOLATTE](https://repmeth.netlify.app/)
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 

@@ -21,6 +21,7 @@ import { MembersServService } from './services/members-serv.service';
 import { PartiesServService } from './services/parties-serv.service';
 import { YearsServService } from './services/years-serv.service';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-		HttpClientModule
+		HttpClientModule,
+  BrowserAnimationsModule
   ],
   providers: [DataJsonServiceService, MembersServService, PartiesServService, YearsServService],
   bootstrap: [AppComponent]
