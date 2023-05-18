@@ -1,7 +1,15 @@
-<div class="card-member__container" *ngFor="let mem of membersDataByYear">
+<div class="card-member__container"
+	*ngFor="let mem of membersDataByYear"
+	(click)="showDataMembers(mem)">
+
 	<div class="member__iten">
 		<p class="name-member">
 			{{mem.nick}}
 		</p>
 	</div>
+
+	<div *ngIf="mem === memSelecionado">
+		<app-member-card [membersToShow] = mem></app-member-card>
+	</div>
+
 </div>

@@ -9,6 +9,10 @@ import { MembersServService } from 'src/app/services/members-serv.service';
 })
 export class CardMembersComponent implements OnInit {
 	@Input() memberNick:string = '';
+	memberCardShow:boolean = false;
+
+	memSelecionado:any = null;
+
 	@Input() anoCorrente!:number;
 	@Input() membersData:IMembers[] | undefined;
 	@Input() membersDataByYear:IMembers[] | undefined;
@@ -38,4 +42,12 @@ export class CardMembersComponent implements OnInit {
 		}
 	}
 
+	showDataMembers(mem:any):void{
+		if(this.memSelecionado === mem){
+			this.memSelecionado = null;
+		}else{
+
+			this.memSelecionado = mem;
+		}
+	}
 }
