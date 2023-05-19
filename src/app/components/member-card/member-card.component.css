@@ -1,0 +1,16 @@
+.member-card__container {
+	border-top: 1px dashed rgb(156, 46, 46);
+}
+
+.img__container {
+	width: 250px;
+}
+
+.img__container > img{
+	width: 100%;
+}
+
+
+span {
+	font-weight: bold;
+}

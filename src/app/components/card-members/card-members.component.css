@@ -7,7 +7,7 @@
 }
 
 .card-member__container:hover{
-	background-color: #FEFEFE;
+	background-color: rgb(230, 100, 100);
 	color: #2b2b2b;
 }
 

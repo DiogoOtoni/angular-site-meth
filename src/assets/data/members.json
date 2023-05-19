@@ -85,6 +85,13 @@
 			"dataSaida": 2019
 		},
 		{
+			"name": "Victor Carvalho",
+			"nick": "VICTOR",
+			"photo": "",
+			"dataEntrada": 2020,
+			"dataSaida": 2021
+		},
+		{
 			"name": "Álvaro Lelis",
 			"nick": "PIG",
 			"photo": "",
@@ -118,6 +125,13 @@
 			"photo": "",
 			"dataEntrada": 2019,
 			"dataSaida": 2022
+		},
+		{
+			"name": "Thales Lima",
+			"nick": "XANINHA",
+			"photo": "",
+			"dataEntrada": 2019,
+			"dataSaida": 2021
 		},
 		{
 			"name": "Gabriel Linhares",
@@ -163,7 +177,7 @@
 		},
 		{
 			"name": "Bianca Panacho",
-			"nick": "UVA",
+			"nick": "PANACHO",
 			"photo": "",
 			"dataEntrada": 2023,
 			"dataSaida": null

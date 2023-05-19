@@ -1,12 +1,14 @@
 <div class="member-card__container">
-	<div>
-		<p>NOME: {{ name }} </p>
-		<p>APELIDO: {{ nick }} </p>
+	<div class="names__container">
+		<p>Nome: <span>{{ name }}</span> </p>
+		<p>Codinome: <span>{{ nick }}</span> </p>
 	</div>
-	<div>
-		<img src=" {{photo}} " alt="FOTO DO INTEGRANTE">
+	<div class="img__container">
+		<img src="`../../../../../assets/images/profileMembers/{{nick}}.png" alt="FOTO DO INTEGRANTE">
 	</div>
-	<div>
-		<p>Ano de entrada: <span>{{dataEntrada}}</span> - Ano de saída: <span>{{dataSaida}}</span></p>
+	<div class="info__container">
+		<p>Tempo de residência:</p>
+		<p>Ano de entrada: <span>{{dataEntrada}}</span></p>
+		<p>Ano de saída: <span>{{dataSaida}}</span></p>
 	</div>
 </div>
