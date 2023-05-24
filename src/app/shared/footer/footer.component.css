@@ -11,7 +11,7 @@
 
 	width: 100%;
 
-	min-height: 200px;
+	height: 200px;
 	position: absolute;
 	bottom: 0;
 }
@@ -29,7 +29,7 @@
 }
 
 .footer__social-network {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 .form__contact {
@@ -37,10 +37,15 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	flex-wrap: wrap;
 
 	margin: .5rem 0 .5rem 0;
 }
 
 .form__contact label {
 	margin-right: .225rem;
+}
+
+.form__contact > input {
+	max-width: 200px;
 }

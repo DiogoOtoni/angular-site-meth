@@ -1,7 +1,22 @@
 /*
 MEDIA QUERIES
 */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
+	.header__img-title {
+		width: 50px;
+	}
+
+	.header__write-title > h1{
+		letter-spacing: .5rem;
+		font-size: 1rem;
+	}
+
+	.header__write-title > p {
+		font-size: .375rem;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px ){
 	.header__img-title {
 		width: 100px;
 	}
@@ -16,6 +31,12 @@ MEDIA QUERIES
 	}
 }
 
-/* @media screen and (max-width: 1023px) and (min-width: 769px){
+
+/*
+@media screen and (max-width: 1024px) and (min-width: 769px){
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px){
 
 } */
