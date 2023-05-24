@@ -22,7 +22,7 @@
 
 .header__img-title > img {
 	width: 100%;
-	border-radius: 50%;
+	border-radius: 50% 50% 25% 25%;
 }
 
 .header__write-title > h1{

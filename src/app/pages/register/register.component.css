@@ -1,0 +1,84 @@
+.register__container {
+	background-color: #f0f0f0;
+	max-width: 70%;
+	margin: 1rem auto;
+	border-radius: 2rem;
+	border: 2px dashed rgb(230, 100, 100);
+}
+
+.content__data{
+	border-bottom: 2px dashed rgb(230, 100, 100);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title__register {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	border-bottom: 2px dashed rgb(230, 100, 100);
+}
+
+.img__title-register {
+	width: 200px;
+}
+.img__title-register > img {
+	width: 100%;
+	border-radius: 50% 50% 25% 25%;
+}
+
+
+.inputs-data{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	margin: 1rem;
+}
+.inputs-data > input {
+	max-width: 350px;
+	height: 2rem;
+	border-radius: .5rem;
+	padding: 0 1rem;
+}
+
+.input-address{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.curso-inputs {
+	margin-bottom: .5rem;
+}
+.curso-inputs > input{
+	margin-right: .625rem;
+}
+
+
+.content__btn-register{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.content__btn-register > button{
+	cursor: pointer;
+	background-color: rgb(230, 100, 100);
+	border-radius: 1rem;
+	width: 10rem;
+	height: 3rem;
+	font-weight: bold;
+}
+
+
+#selStudent{
+	width: 3rem;
+}
+#numberInput,
+#cepInput{
+	width: 7rem;
+}
+

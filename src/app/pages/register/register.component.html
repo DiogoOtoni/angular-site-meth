@@ -1,1 +1,169 @@
-<p>register works!</p>
+<div class="register__container">
+
+	<div class="title__register">
+		<div class="img__title-register">
+			<img src="../../../assets/images/imgMeth/newlogo.jpeg" alt="Logo">
+		</div>
+		<div class="title__title-register">
+			<h2>CADASTRO</h2>
+		</div>
+	</div>
+	<form action="">
+
+		<div class="content__personal-register content__data">
+			<div class="title__content">
+				<h3>DADOS PESSOAIS</h3>
+			</div>
+			<div class="inputs-data">
+				<label for="nameInput">Nome:</label>
+				<input type="text" name="nameInput" id="nameInput" required>
+			</div>
+
+			<div class="inputs-data">
+				<label for="nickInput">Nome Social ou Apelido:</label>
+				<input type="text" name="nickInput" id="nickInput">
+			</div>
+
+			<div class="inputs-data">
+				<label for="emailInput">E-mail:</label>
+				<input type="email" name="emailInput" id="emailInput" required>
+			</div>
+
+			<div class="inputs-data">
+				<label for="cpfInput">CPF:</label>
+				<input type="text" name="cpfInput" id="cpfInput" required>
+			</div>
+
+			<div class="inputs-data">
+				<label for="birthInput">Data de Nascimento:</label>
+				<input type="date" name="birthInput" id="birthInput">
+			</div>
+
+			<div class="inputs-data">
+				<label for="profissionInput">Profissão:</label>
+				<input type="text" name="profissionInput" id="profissionInput">
+			</div>
+
+		</div>
+
+		<div class="content__address-register content__data">
+			<div class="title__content">
+				<h3>ENDEREÇO</h3>
+			</div>
+			<div class="inputs-data">
+				<label for="cepInput">CEP (apenas números):</label>
+				<input type="text" name="cepInput" id="cepInput" required>
+			</div>
+
+			<div class="input-address">
+				<div class="inputs-data">
+					<label for="streetInput">Rua:</label>
+					<input type="text" name="streetInput" id="streetInput">
+				</div>
+				<div class="inputs-data">
+					<label for="numberInput">Número:</label>
+					<input type="number" name="numberInput" id="numberInput" min="0">
+				</div>
+				<div class="inputs-data">
+					<label for="addressInput1">Bairro:</label>
+					<input type="text" name="addressInput1" id="addressInput1">
+				</div>
+				<div class="inputs-data">
+					<label for="compleInput">Complemento:</label>
+					<input type="text" name="compleInput" id="compleInput">
+				</div>
+			</div>
+
+			<div class="input-address">
+				<div class="inputs-data">
+					<label for="cityInput">Cidade:</label>
+					<input type="text" name="cityInput" id="cityInput">
+				</div>
+				<div class="inputs-data">
+					<label for="ufInput">UF:</label>
+					<input type="text" name="ufInput" id="ufInput">
+				</div>
+				<div class="inputs-data">
+					<label for="countryInput">País:</label>
+					<input type="text" name="countryInput" id="countryInput">
+				</div>
+			</div>
+		</div>
+
+		<div class="content__student-register content__data">
+			<div class="title__content">
+				<h3>UFV-CRP</h3>
+			</div>
+			<div class="inputs-data">
+				<label for="selStudent">É estudante da UFV-CRP?</label>
+				<select name="selStudent" id="selStudent">
+					<option value="sim">SIM</option>
+					<option value="nao">NÃO</option>
+				</select>
+			</div>
+			<div class="inputs-data">
+				<p>Caso sim, de qual curso ?</p>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputAGR" value="AGR">
+					<label for="cursoInputAGR">Agronomia</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputADM" value="ADM">
+					<label for="cursoInputADM">Administração</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputBIO" value="BIO">
+					<label for="cursoInputBIO">Ciências Biológicas</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputCCB" value="CCB">
+					<label for="cursoInputCCB">Ciências Contábeis</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputCAL" value="CAL">
+					<label for="cursoInputCAL">Ciências de Alimentos</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputEGC" value="EGC">
+					<label for="cursoInputEGC">Engenharia Civil</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputEGP" value="EGP">
+					<label for="cursoInputEGP">Engenharia de Produção</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputNUT" value="NUT">
+					<label for="cursoInputNUT">Nutrição</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputQUI" value="QUI">
+					<label for="cursoInputQUI">Química</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputSIS" value="SIS">
+					<label for="cursoInputSIS">Sistemas de Informação</label>
+				</div>
+				<div class="curso-inputs">
+					<input type="radio" name="cursoInput" id="cursoInputOther" value="OTHER" checked>
+					<label for="cursoInputOther">Outro</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="content__pass-register">
+			<div class="inputs-data">
+				<label for="passInput">SENHA:</label>
+				<input type="password" name="passInput" id="passInput" required>
+			</div>
+			<div class="inputs-data">
+				<label for="passConfInput">CONFIRME A SENHA:</label>
+				<input type="password" name="passConfInput" id="passConfInput" required>
+			</div>
+		</div>
+
+		<div class="content__btn-register">
+			<button type="submit">ENVIAR</button>
+		</div>
+
+	</form>
+</div>

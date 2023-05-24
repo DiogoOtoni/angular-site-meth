@@ -9,9 +9,11 @@ import { IYears } from '../interfaces/IYears';
 
 export class YearsServService {
 
+	urlYears:string = 'assets/data/years.json'
+
   constructor(private http: HttpClient) { }
 
 	getAllYears():Observable<any>{
-		return this.http.get<any>('assets/data/years.json')
+		return this.http.get<any>(this.urlYears)
 	}
 }
