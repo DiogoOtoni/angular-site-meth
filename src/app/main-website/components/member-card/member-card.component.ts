@@ -1,4 +1,4 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { IMembers } from 'src/app/interfaces/IMembers';
 
 @Component({
@@ -6,7 +6,7 @@ import { IMembers } from 'src/app/interfaces/IMembers';
   templateUrl: './member-card.component.html',
   styleUrls: ['./member-card.component.css']
 })
-export class MemberCardComponent implements IMembers, OnInit, OnDestroy {
+export class MemberCardComponent implements IMembers, OnInit {
 	name: string = '';
 	nick: string = '';
 	photo: string = '';
@@ -23,6 +23,4 @@ export class MemberCardComponent implements IMembers, OnInit, OnDestroy {
 		this.photo = this.membersToShow.photo;
 	}
 
-	ngOnDestroy(): void {
-	}
 }
