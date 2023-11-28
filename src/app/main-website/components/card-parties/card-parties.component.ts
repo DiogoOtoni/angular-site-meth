@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { filter } from 'rxjs';
+
 import { IParties } from 'src/app/interfaces/IParties';
 import { PartiesServService } from 'src/app/main-website/services/parties-serv.service';
 
@@ -26,9 +26,9 @@ export class CardPartiesComponent implements OnInit{
 	ngOnInit(): void {
 		this.dataService.getParties()
 		.subscribe(data => {
-			this.partiesData = data.parties;
-			this.partiesByYear = data.parties
-			.filter((party:any) => party.year == this.anoCorrente);
+			this.partiesData = data;
+			this.partiesByYear = data
+			.filter((party:IParties) => party.year == this.anoCorrente);
 			// this.getPartiesByYear();
 		})
 	}

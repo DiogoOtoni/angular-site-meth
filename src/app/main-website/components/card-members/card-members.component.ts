@@ -21,7 +21,7 @@ export class CardMembersComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.dataService.getMembers().subscribe(data => {
-			this.membersData = data.members;
+			this.membersData = data;
 			this.getMembersByYear();
 		})
 	}
@@ -29,13 +29,13 @@ export class CardMembersComponent implements OnInit {
 	getMembersByYear(){
 		if(this.anoCorrente === 2023){
 			this.dataService.getMembers().subscribe(data => {
-				this.membersDataByYear = data.members.filter((member:any) =>
+				this.membersDataByYear = data.filter((member:IMembers) =>
 					member.dataSaida === null
 				)
 			})
 		}else{
 			this.dataService.getMembers().subscribe(data => {
-				this.membersDataByYear = data.members.filter((member:any) =>
+				this.membersDataByYear = data.filter((member:IMembers) =>
 					(member.dataSaida >= this.anoCorrente || member.dataSaida == null) && member.dataEntrada <= this.anoCorrente
 				)
 			})

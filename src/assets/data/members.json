@@ -1,256 +1,254 @@
-{
-	"members": [
-		{
-			"name": "Pedro Oliveira",
-			"nick": "TIBORNA",
-			"photo": "",
-			"dataEntrada": 2011,
-			"dataSaida": 2016
-		},
-		{
-			"name": "Álvaro Campos",
-			"nick": "JOHNNY",
-			"photo": "",
-			"dataEntrada": 2012,
-			"dataSaida": 2018
-		},
-		{
-			"name": "Thiago Henrique",
-			"nick": "GRANOLA",
-			"photo": "",
-			"dataEntrada": 2013,
-			"dataSaida": 2016
-		},
-		{
-			"name": "Fernando Augusto",
-			"nick": "CHAMPZ",
-			"photo": "",
-			"dataEntrada": 2013,
-			"dataSaida": 2018
-		},
-		{
-			"name": "Daniel Anjos",
-			"nick": "POPEYE",
-			"photo": "",
-			"dataEntrada": 2014,
-			"dataSaida": 2014
-		},
-		{
-			"name": "Rafael",
-			"nick": "RAFAEL",
-			"photo": "",
-			"dataEntrada": 2014,
-			"dataSaida": 2014
-		},
-		{
-			"name": "Bruno de Souza",
-			"nick": "GARDENAL",
-			"photo": "",
-			"dataEntrada": 2014,
-			"dataSaida": 2020
-		},
-		{
-			"name": "Diogo Santos",
-			"nick": "DIGUIM",
-			"photo": "",
-			"dataEntrada": 2014,
-			"dataSaida": 2017
-		},
-		{
-			"name": "Felipe Campos",
-			"nick": "TUG",
-			"photo": "",
-			"dataEntrada": 2016,
-			"dataSaida": 2016
-		},
-		{
-			"name": "Wener Maurício",
-			"nick": "WENNER",
-			"photo": "",
-			"dataEntrada": 2017,
-			"dataSaida": 2020
-		},
-		{
-			"name": "William Carvalho",
-			"nick": "WILL",
-			"photo": "",
-			"dataEntrada": 2018,
-			"dataSaida": 2018
-		},
-		{
-			"name": "Leonardo Pinheiro",
-			"nick": "CHICO",
-			"photo": "",
-			"dataEntrada": 2018,
-			"dataSaida": 2019
-		},
-		{
-			"name": "Victor Carvalho",
-			"nick": "PIT",
-			"photo": "",
-			"dataEntrada": 2020,
-			"dataSaida": 2022
-		},
-		{
-			"name": "Álvaro Lelis",
-			"nick": "PIG",
-			"photo": "",
-			"dataEntrada": 2017,
-			"dataSaida": 2017
-		},
-		{
-			"name": "Marcus Darack",
-			"nick": "PEÃO",
-			"photo": "",
-			"dataEntrada": 2017,
-			"dataSaida": 2018
-		},
-		{
-			"name": "Raffael Marçal",
-			"nick": "NENÉM",
-			"photo": "",
-			"dataEntrada": 2017,
-			"dataSaida": 2019
-		},
-		{
-			"name": "Clara Contreras",
-			"nick": "CLARA",
-			"photo": "",
-			"dataEntrada": 2019,
-			"dataSaida": 2020
-		},
-		{
-			"name": "Beatriz Ximenes",
-			"nick": "BIA",
-			"photo": "",
-			"dataEntrada": 2019,
-			"dataSaida": 2022
-		},
-		{
-			"name": "Thales Lima",
-			"nick": "XANINHA",
-			"photo": "",
-			"dataEntrada": 2020,
-			"dataSaida": 2021
-		},
-		{
-			"name": "Gabriel Linhares",
-			"nick": "BH",
-			"photo": "",
-			"dataEntrada": 2020,
-			"dataSaida": null
-		},
-		{
-			"name": "Pedro Antonio",
-			"nick": "VÔ",
-			"photo": "",
-			"dataEntrada": 2021,
-			"dataSaida": null
-		},
-		{
-			"name": "Jéssica Nayara",
-			"nick": "JEJE",
-			"photo": "",
-			"dataEntrada": 2020,
-			"dataSaida": null
-		},
-		{
-			"name": "Camile",
-			"nick": "SININHO",
-			"photo": "",
-			"dataEntrada": 2022,
-			"dataSaida": null
-		},
-		{
-			"name": "Pedro",
-			"nick": "CHOCO",
-			"photo": "",
-			"dataEntrada": 2022,
-			"dataSaida": null
-		},
-		{
-			"name": "Lucas Blaze",
-			"nick": "PALETÓ",
-			"photo": "",
-			"dataEntrada": 2022,
-			"dataSaida": 2022
-		},
-		{
-			"name": "Bianca Panacho",
-			"nick": "PANACHO",
-			"photo": "",
-			"dataEntrada": 2023,
-			"dataSaida": null
-		},
-		{
-			"name": "Guilherme",
-			"nick": "NETO",
-			"photo": "",
-			"dataEntrada": 2023,
-			"dataSaida": null
-		},
-		{
-			"name": "Cleyton",
-			"nick": "CLEYTIM",
-			"photo": "",
-			"dataEntrada": 2017,
-			"dataSaida": 2017
-		},
-		{
-			"name": "Mateus",
-			"nick": "MARANHÃO",
-			"photo": "",
-			"dataEntrada": 2017,
-			"dataSaida": 2017
-		},
-		{
-			"name": "Gabriella Paiva",
-			"nick": "GABI",
-			"photo": "",
-			"dataEntrada": 2019,
-			"dataSaida": 2021
-		},
-		{
-			"name": "Vicente Júnior",
-			"nick": "VICENTE",
-			"photo": "",
-			"dataEntrada": 2008,
-			"dataSaida": 2013
-		},
-		{
-			"name": "Alfredo Teixeira",
-			"nick": "FREDIM",
-			"photo": "",
-			"dataEntrada": 2008,
-			"dataSaida": 2011
-		},
-		{
-			"name": "Eduardo",
-			"nick": "PARÁ",
-			"photo": "",
-			"dataEntrada": 2009,
-			"dataSaida": 2012
-		},
-		{
-			"name": "Sávio Ladeira",
-			"nick": "SÁVIO",
-			"photo": "",
-			"dataEntrada": 2008,
-			"dataSaida": 2011
-		},
-		{
-			"name": "Paulo Rates",
-			"nick": "RATES",
-			"photo": "",
-			"dataEntrada": 2011,
-			"dataSaida": 2013
-		},
-		{
-			"name": "Nestor",
-			"nick": "NESTOR",
-			"photo": "",
-			"dataEntrada": 2008,
-			"dataSaida": 2013
-		}
-	]
-}
+[
+	{
+		"name": "Pedro Oliveira",
+		"nick": "TIBORNA",
+		"photo": "",
+		"dataEntrada": 2011,
+		"dataSaida": 2016
+	},
+	{
+		"name": "Álvaro Campos",
+		"nick": "JOHNNY",
+		"photo": "",
+		"dataEntrada": 2012,
+		"dataSaida": 2018
+	},
+	{
+		"name": "Thiago Henrique",
+		"nick": "GRANOLA",
+		"photo": "",
+		"dataEntrada": 2013,
+		"dataSaida": 2016
+	},
+	{
+		"name": "Fernando Augusto",
+		"nick": "CHAMPZ",
+		"photo": "",
+		"dataEntrada": 2013,
+		"dataSaida": 2018
+	},
+	{
+		"name": "Daniel Anjos",
+		"nick": "POPEYE",
+		"photo": "",
+		"dataEntrada": 2014,
+		"dataSaida": 2014
+	},
+	{
+		"name": "Rafael",
+		"nick": "RAFAEL",
+		"photo": "",
+		"dataEntrada": 2014,
+		"dataSaida": 2014
+	},
+	{
+		"name": "Bruno de Souza",
+		"nick": "GARDENAL",
+		"photo": "",
+		"dataEntrada": 2014,
+		"dataSaida": 2020
+	},
+	{
+		"name": "Diogo Santos",
+		"nick": "DIGUIM",
+		"photo": "",
+		"dataEntrada": 2014,
+		"dataSaida": 2017
+	},
+	{
+		"name": "Felipe Campos",
+		"nick": "TUG",
+		"photo": "",
+		"dataEntrada": 2016,
+		"dataSaida": 2016
+	},
+	{
+		"name": "Wener Maurício",
+		"nick": "WENNER",
+		"photo": "",
+		"dataEntrada": 2017,
+		"dataSaida": 2020
+	},
+	{
+		"name": "William Carvalho",
+		"nick": "WILL",
+		"photo": "",
+		"dataEntrada": 2018,
+		"dataSaida": 2018
+	},
+	{
+		"name": "Leonardo Pinheiro",
+		"nick": "CHICO",
+		"photo": "",
+		"dataEntrada": 2018,
+		"dataSaida": 2019
+	},
+	{
+		"name": "Victor Carvalho",
+		"nick": "PIT",
+		"photo": "",
+		"dataEntrada": 2020,
+		"dataSaida": 2022
+	},
+	{
+		"name": "Álvaro Lelis",
+		"nick": "PIG",
+		"photo": "",
+		"dataEntrada": 2017,
+		"dataSaida": 2017
+	},
+	{
+		"name": "Marcus Darack",
+		"nick": "PEÃO",
+		"photo": "",
+		"dataEntrada": 2017,
+		"dataSaida": 2018
+	},
+	{
+		"name": "Raffael Marçal",
+		"nick": "NENÉM",
+		"photo": "",
+		"dataEntrada": 2017,
+		"dataSaida": 2019
+	},
+	{
+		"name": "Clara Contreras",
+		"nick": "CLARA",
+		"photo": "",
+		"dataEntrada": 2019,
+		"dataSaida": 2020
+	},
+	{
+		"name": "Beatriz Ximenes",
+		"nick": "BIA",
+		"photo": "",
+		"dataEntrada": 2019,
+		"dataSaida": 2022
+	},
+	{
+		"name": "Thales Lima",
+		"nick": "XANINHA",
+		"photo": "",
+		"dataEntrada": 2020,
+		"dataSaida": 2021
+	},
+	{
+		"name": "Gabriel Linhares",
+		"nick": "BH",
+		"photo": "",
+		"dataEntrada": 2020,
+		"dataSaida": null
+	},
+	{
+		"name": "Pedro Antonio",
+		"nick": "VÔ",
+		"photo": "",
+		"dataEntrada": 2021,
+		"dataSaida": null
+	},
+	{
+		"name": "Jéssica Nayara",
+		"nick": "JEJE",
+		"photo": "",
+		"dataEntrada": 2020,
+		"dataSaida": null
+	},
+	{
+		"name": "Camile",
+		"nick": "SININHO",
+		"photo": "",
+		"dataEntrada": 2022,
+		"dataSaida": null
+	},
+	{
+		"name": "Pedro",
+		"nick": "CHOCO",
+		"photo": "",
+		"dataEntrada": 2022,
+		"dataSaida": null
+	},
+	{
+		"name": "Lucas Blaze",
+		"nick": "PALETÓ",
+		"photo": "",
+		"dataEntrada": 2022,
+		"dataSaida": 2022
+	},
+	{
+		"name": "Bianca Panacho",
+		"nick": "PANACHO",
+		"photo": "",
+		"dataEntrada": 2023,
+		"dataSaida": null
+	},
+	{
+		"name": "Guilherme",
+		"nick": "NETO",
+		"photo": "",
+		"dataEntrada": 2023,
+		"dataSaida": null
+	},
+	{
+		"name": "Cleyton",
+		"nick": "CLEYTIM",
+		"photo": "",
+		"dataEntrada": 2017,
+		"dataSaida": 2017
+	},
+	{
+		"name": "Mateus",
+		"nick": "MARANHÃO",
+		"photo": "",
+		"dataEntrada": 2017,
+		"dataSaida": 2017
+	},
+	{
+		"name": "Gabriella Paiva",
+		"nick": "GABI",
+		"photo": "",
+		"dataEntrada": 2019,
+		"dataSaida": 2021
+	},
+	{
+		"name": "Vicente Júnior",
+		"nick": "VICENTE",
+		"photo": "",
+		"dataEntrada": 2008,
+		"dataSaida": 2013
+	},
+	{
+		"name": "Alfredo Teixeira",
+		"nick": "FREDIM",
+		"photo": "",
+		"dataEntrada": 2008,
+		"dataSaida": 2011
+	},
+	{
+		"name": "Eduardo",
+		"nick": "PARÁ",
+		"photo": "",
+		"dataEntrada": 2009,
+		"dataSaida": 2012
+	},
+	{
+		"name": "Sávio Ladeira",
+		"nick": "SÁVIO",
+		"photo": "",
+		"dataEntrada": 2008,
+		"dataSaida": 2011
+	},
+	{
+		"name": "Paulo Rates",
+		"nick": "RATES",
+		"photo": "",
+		"dataEntrada": 2011,
+		"dataSaida": 2013
+	},
+	{
+		"name": "Nestor",
+		"nick": "NESTOR",
+		"photo": "",
+		"dataEntrada": 2008,
+		"dataSaida": 2013
+	}
+]

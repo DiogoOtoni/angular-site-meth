@@ -1,68 +1,66 @@
-{
-	"years":[
-		{
-			"year": 2023,
-			"description": "card-year__background-new"
-		},
-		{
-			"year": 2022,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2021,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2020,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2019,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2018,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2017,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2016,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2015,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2014,
-			"description": "card-year__background-old"
-		},
-		{
-			"year": 2013,
-			"description": "card-year__background-first"
-		},
-		{
-			"year": 2012,
-			"description": "card-year__background-first"
-		},
-		{
-			"year": 2011,
-			"description": "card-year__background-first"
-		},
-		{
-			"year": 2010,
-			"description": "card-year__background-first"
-		},
-		{
-			"year": 2009,
-			"description": "card-year__background-first"
-		},
-		{
-			"year": 2008,
-			"description": "card-year__background-first"
-		}
-	]
-}
+[
+	{
+		"year": 2023,
+		"description": "card-year__background-new"
+	},
+	{
+		"year": 2022,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2021,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2020,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2019,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2018,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2017,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2016,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2015,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2014,
+		"description": "card-year__background-old"
+	},
+	{
+		"year": 2013,
+		"description": "card-year__background-first"
+	},
+	{
+		"year": 2012,
+		"description": "card-year__background-first"
+	},
+	{
+		"year": 2011,
+		"description": "card-year__background-first"
+	},
+	{
+		"year": 2010,
+		"description": "card-year__background-first"
+	},
+	{
+		"year": 2009,
+		"description": "card-year__background-first"
+	},
+	{
+		"year": 2008,
+		"description": "card-year__background-first"
+	}
+]

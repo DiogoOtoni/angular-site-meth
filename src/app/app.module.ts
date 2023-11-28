@@ -10,7 +10,6 @@ import { SharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 
-import { DataJsonServiceService } from './services/data-json-service.service';
 import { MembersServService } from './main-website/services/members-serv.service';
 import { PartiesServService } from './main-website/services/parties-serv.service';
 import { YearsServService } from './main-website/services/years-serv.service';
@@ -28,7 +27,7 @@ import { YearsServService } from './main-website/services/years-serv.service';
 		SharedModule,
 		MainWebsiteModule
   ],
-  providers: [DataJsonServiceService, MembersServService, PartiesServService, YearsServService],
+  providers: [MembersServService, PartiesServService, YearsServService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

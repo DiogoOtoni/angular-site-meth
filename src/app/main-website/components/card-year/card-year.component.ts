@@ -18,7 +18,7 @@ export class CardYearComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.dataService.getAllYears().subscribe(data => {
-			this.yearsData = data.years;
+			this.yearsData = data;
 		})
 
 	}
