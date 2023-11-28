@@ -1,4 +1,5 @@
 export interface IUsers {
+	_idUser: string | number,
 	username: string,
 	nickname: string,
 	email: string,

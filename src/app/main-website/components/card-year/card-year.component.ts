@@ -1,7 +1,7 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
-import { map } from 'rxjs';
+import { Component, Input, OnInit } from '@angular/core';
+
 import { IYears } from 'src/app/interfaces/IYears';
-import { YearsServService } from 'src/app/services/years-serv.service';
+import { YearsServService } from 'src/app/main-website/services/years-serv.service';
 
 @Component({
   selector: 'app-card-year',

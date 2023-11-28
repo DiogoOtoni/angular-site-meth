@@ -28,14 +28,14 @@
 }
 
 .card-year__background-new {
-	background-image: url("../../../assets/images/imgMeth/newlogoOpac.jpeg");
+	background-image: url("../../../../assets/images/imgMeth/newlogoOpac.jpeg");
 	background-repeat: space round;
 }
 .card-year__background-first{
-	background-image: url("../../../assets/images/imgMeth/firstLogoOpac.jpg");
+	background-image: url("../../../../assets/images/imgMeth/firstLogoOpac.jpg");
 	background-repeat: space round;
 }
 .card-year__background-old {
-	background-image: url("../../../assets/images/imgMeth/oldLogoOpac.png");
+	background-image: url("../../../../assets/images/imgMeth/oldLogoOpac.png");
 	background-repeat: space round;
 }

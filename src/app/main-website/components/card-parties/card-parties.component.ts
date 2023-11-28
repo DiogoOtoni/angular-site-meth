@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { filter } from 'rxjs';
 import { IParties } from 'src/app/interfaces/IParties';
-import { PartiesServService } from 'src/app/services/parties-serv.service';
+import { PartiesServService } from 'src/app/main-website/services/parties-serv.service';
 
 
 @Component({

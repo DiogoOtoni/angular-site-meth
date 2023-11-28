@@ -9,21 +9,16 @@ import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { LoginComponent } from './pages/login/login.component';
-import { RegisterComponent } from './pages/register/register.component';
-
 
 import { DataJsonServiceService } from './services/data-json-service.service';
-import { MembersServService } from './services/members-serv.service';
-import { PartiesServService } from './services/parties-serv.service';
-import { YearsServService } from './services/years-serv.service';
+import { MembersServService } from './main-website/services/members-serv.service';
+import { PartiesServService } from './main-website/services/parties-serv.service';
+import { YearsServService } from './main-website/services/years-serv.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent,
-    RegisterComponent,
   ],
   imports: [
     BrowserModule,

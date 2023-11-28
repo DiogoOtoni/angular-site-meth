@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { IMembers } from 'src/app/interfaces/IMembers';
-import { MembersServService } from 'src/app/services/members-serv.service';
+import { MembersServService } from 'src/app/main-website/services/members-serv.service';
 
 @Component({
   selector: 'app-card-members',
