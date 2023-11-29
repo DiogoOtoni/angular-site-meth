@@ -25,19 +25,29 @@
 					<a routerLink="/festas"><button class="btn-menu">FESTAS</button></a>
 				</span>
 				<span class="menu-bar__itens">
-					<a><button class="btn-menu">LOJA</button></a><!-- falta a URL SHOP quando criado o componente pagina shop -->
+					<a routerLink="/loja"><button class="btn-menu">LOJA</button></a><!-- falta a URL SHOP quando criado o componente pagina shop -->
 				</span>
-				<span *ngIf="false"> Olá XXXXX</span>
 			</div>
 
-			<div class="menu__sign" *ngIf="true">
+			<div class="menu__sign">
+				@if (true) {
+					<div class="menu-bar__itens">
+						<a routerLink="/login"><button class="btn-menu">ENTRAR</button></a>
+					</div>
+					<div class="menu-bar__itens">
+						<a routerLink="/register"><button class="btn-menu">CADASTRE-SE</button></a>
+					</div>
+				}@else{
+					<!-- else aqui -->
+				}
+				<!-- ELSE -->
+				<span *ngIf="true"> Olá NOME DE USUÁRIO</span>
 				<div class="menu-bar__itens">
-					<a routerLink="/login"><button class="btn-menu">ENTRAR</button></a>
-				</div>
-				<div class="menu-bar__itens">
-					<a routerLink="/register"><button class="btn-menu">CADASTRE-SE</button></a>
+					<a routerLink="/profile"><button class="btn-menu">PERFIL</button></a>
 				</div>
 			</div>
+
+
 		</div>
 	</div>
 </div>
