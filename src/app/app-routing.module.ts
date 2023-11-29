@@ -2,10 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './pages/home/home.component';
-import { LoginComponent } from './admin-users/pages/login/login.component';
-import { RegisterComponent } from './admin-users/pages/register/register.component';
 import { MembersComponent } from './main-website/pages/members/members.component';
 import { PartiesComponent } from './main-website/pages/parties/parties.component';
+
 
 const routes: Routes = [
 	{
@@ -19,18 +18,6 @@ const routes: Routes = [
 	{
 		path:'festas',
 		component:PartiesComponent
-	},
-	// {
-	// 	path:'loja',
-	// 	component: LOJA COMPONENTE
-	// }
-	{
-		path:'login',
-		component:LoginComponent
-	},
-	{
-		path:'register',
-		component:RegisterComponent
 	}
 ];
 
