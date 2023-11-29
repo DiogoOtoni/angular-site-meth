@@ -1,0 +1,21 @@
+<div class="container">
+	@for (item of items; track $index) {
+		<div class="card-container">
+			<div class="header-container">
+				<h4>{{item.nameItem}}</h4>
+			</div>
+
+			<div class="context-container">
+				<img src=" https://source.unsplash.com/random/100x150" alt="	IMAGEM DO ITEM ">
+			</div>
+
+			<div class="details-container">
+				<p>{{item.priceItem}}</p>
+			</div>
+
+			<div class="buttons-container">
+				<button>Add to cart</button>
+			</div>
+		</div>
+	}
+</div>

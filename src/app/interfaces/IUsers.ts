@@ -6,6 +6,7 @@ export interface IUsers {
 	cpf: string,
 	birthday: string,
 	job: string,
+	userStatus: string,
 	address: {
 		cep: string,
 		street: string,
