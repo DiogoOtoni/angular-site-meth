@@ -5,16 +5,21 @@
 				<h4>{{item.nameItem}}</h4>
 			</div>
 
-			<div class="context-container">
-				<img src=" https://source.unsplash.com/random/100x150" alt="	IMAGEM DO ITEM ">
+			<div class="img-container">
+				<img src=" https://source.unsplash.com/random/280x280" alt="	IMAGEM DO ITEM ">
 			</div>
 
 			<div class="details-container">
-				<p>{{item.priceItem}}</p>
+				<p>{{item.priceItem | currency:'BRL' }}</p>
 			</div>
 
 			<div class="buttons-container">
-				<button>Add to cart</button>
+				<div>
+					<button class="btn btn-details">DETALHES</button>
+				</div>
+				<div>
+					<button class="btn btn-buy-in">COMPRAR</button>
+				</div>
 			</div>
 		</div>
 	}
