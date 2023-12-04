@@ -8,6 +8,10 @@ import { CardPartiesComponent } from './components/card-parties/card-parties.com
 import { MemberCardComponent } from './components/member-card/member-card.component';
 import { CardYearComponent } from './components/card-year/card-year.component';
 
+import { YearsServService } from './services/years-serv.service';
+import { PartiesServService } from './services/parties-serv.service';
+import { MembersServService } from './services/members-serv.service';
+
 
 
 @NgModule({
@@ -28,6 +32,7 @@ import { CardYearComponent } from './components/card-year/card-year.component';
 		CardMembersComponent,
 		CardPartiesComponent,
 		CardYearComponent
-	]
+	],
+	providers: [MembersServService, PartiesServService, YearsServService],
 })
 export class MainWebsiteModule { }
