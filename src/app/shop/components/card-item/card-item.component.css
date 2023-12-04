@@ -3,21 +3,50 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-
-	margin-top: 1rem;
 }
 
-
 .card-container{
-	border: 1px solid gray;
-	border-radius: 1rem;
+	border: 1px solid rgba(233, 224, 224, 0.753);
+	border-radius: .5rem;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 
-	padding: 1rem .5rem;
-	width: 200px;
-	height: 250px;
+	width: 250px;
+	margin: .5rem;
+}
+
+.header-container{
+	margin: .5rem 0;
+}
+
+.img-container > img{
+	width: 100%;
+}
+
+.buttons-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	margin-bottom: .5rem;
+}
+.btn {
+	border-radius: .5rem;
+	border: .5px solid rgba(233, 224, 224, 0.753);
+	font-weight: bold;
+	margin: .5rem;
+	padding: .5rem;
+	cursor: pointer;
+}
+.btn-details{
+	background: rgb(254,0,0);
+	background: linear-gradient(47deg, rgba(254,0,0,1) 4%, rgba(255,255,255,1) 49%, rgba(2,0,36,1) 100%);
+}
+.btn-buy-in{
+	background: rgb(255,255,255);
+	background: linear-gradient(47deg, rgba(255,255,255,1) 0%, rgba(254,0,0,1) 42%, rgba(2,0,36,1) 99%);
+	color: #F0F0F0;
 }
